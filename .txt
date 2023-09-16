@@ -1,0 +1,7 @@
+admin {
+    yengi assist qosha oladi,
+    user larni kora oladi,
+    category qosha oladi, ochira oladi
+    subCategory qosha oladi, ochira oladi,
+    product qosha oladi, ochira oladi,
+}
