@@ -7,7 +7,7 @@ dotenv.config()
 const app = express()
 
 app.use(express.json())
-app.use('/static', express.static(path.join(__dirname, 'upload')))
+app.use('/static', express.static(path.join(__dirname, '/bot/helper/menu/sub/upload')))
 require('./bot')
 
 const main = async () => {
