@@ -13,7 +13,7 @@ module.exports = async (msg) => {
         const fileId = msg.photo.at(-1).file_id        
         
         bot.getFileLink(fileId).then((photoUrl) => {
-            const localFilePath = __dirname + `../../../../../upload/${fileId}.jpg`;
+            const localFilePath = __dirname + `/upload/${fileId}.jpg`;
             console.log(localFilePath)
             axios({
               method: 'get',
